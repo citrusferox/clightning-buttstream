@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="21px" viewBox="0 0 15 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-301.000000, -348.000000)">
+            <g id="Group-6" transform="translate(276.000000, 106.000000)">
+                <g id="Group-3" transform="translate(0.000000, 233.000000)">
+                    <g id="Group-5" transform="translate(25.000000, 9.000000)">
+                        <g id="Group-4" fill="#FFFFFF">
+                            <path d="M3,14 L10.889199,14 C10.429691,15.4412289 10.199937,16.5221506 10.199937,17.2427651 C10.199937,17.9633796 10.4666247,18.5491245 11,19 L3,19 C3.54012992,18.5529483 3.81019489,17.9672034 3.81019489,17.2427651 C3.81019489,16.5183268 3.54012992,15.4374051 3,14 Z" id="Rectangle" fill-opacity="0.55225317"></path>
+                            <path d="M0.17728468,20 L3.76193255,19 L10.8479509,19 L14.773539,20 C14.924513,20.236814 15,20.4110887 15,20.5228241 C15,20.6345596 14.924513,20.7936182 14.773539,21 L0.17728468,21 C0.0590948932,20.7980659 0,20.6390073 0,20.5228241 C0,20.406641 0.0590948932,20.2323663 0.17728468,20 Z" id="Rectangle"></path>
+                            <path d="M7.0226618,16 C9.83574223,16 12,13.9085127 12,12.1215021 C12,10.851398 10.9580635,8.92009342 10.1043341,6.5332768 C9.17499567,3.9350761 8.48884478,0 7.0226618,0 C5.34862778,0 4.84384586,3.52392221 3.91538836,6.5332768 C3.28364721,8.58090217 2,11.0473984 2,12.1215021 C2,13.7798195 4.20958137,16 7.0226618,16 Z" id="Oval"></path>
+                        </g>
+                        <g id="Group" transform="translate(4.000000, 4.000000)" fill="#86408C">
+                            <polygon id="Path" points="0.789500572 13 6 6 0 7.51010581 3.59843822 7.51010581"></polygon>
+                            <polygon id="Path" transform="translate(3.000000, 3.500000) scale(-1, -1) translate(-3.000000, -3.500000) " points="0.789500572 7 6 0 0 1.51010581 3.59843822 1.51010581"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

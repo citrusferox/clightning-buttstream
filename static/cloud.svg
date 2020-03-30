@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="25px" viewBox="0 0 38 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-473.000000, -736.000000)">
+            <g id="Group-10" transform="translate(276.000000, 714.000000)">
+                <g id="cloud-24px" transform="translate(197.000000, 15.000000)">
+                    <polygon id="Path" points="0 0 38 0 38 38 0 38"></polygon>
+                    <path d="M30.6375,16.4375 C29.5608333,11.046875 24.7633333,7 19,7 C14.4241667,7 10.45,9.5625 8.47083333,13.3125 C3.705,13.8125 0,17.796875 0,22.625 C0,27.796875 4.25916667,32 9.5,32 L30.0833333,32 C34.4533333,32 38,28.5 38,24.1875 C38,20.0625 34.7541667,16.71875 30.6375,16.4375 Z" id="Path" fill="#000000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

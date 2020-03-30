@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>games-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-962.000000, -551.000000)">
+            <g id="Group-9" transform="translate(762.000000, 534.000000)">
+                <g id="games-24px" transform="translate(197.000000, 14.000000)">
+                    <polygon id="Path" points="0 0 38 0 38 38 0 38"></polygon>
+                    <path d="M23.8,11.8 L23.8,3 L14.2,3 L14.2,11.8 L19,16.6 L23.8,11.8 Z M11.8,14.2 L3,14.2 L3,23.8 L11.8,23.8 L16.6,19 L11.8,14.2 Z M14.2,26.2 L14.2,35 L23.8,35 L23.8,26.2 L19,21.4 L14.2,26.2 Z M26.2,14.2 L21.4,19 L26.2,23.8 L35,23.8 L35,14.2 L26.2,14.2 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

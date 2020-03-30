@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="14px" viewBox="0 0 19 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="100%" cy="43.1111913%" fx="100%" fy="43.1111913%" r="138.618825%" gradientTransform="translate(1.000000,0.431112),scale(0.736842,1.000000),rotate(180.000000),translate(-1.000000,-0.431112)" id="radialGradient-1">
+            <stop stop-color="#FD696D" offset="0%"></stop>
+            <stop stop-color="#A452BC" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1076.000000, -1432.000000)" fill="url(#radialGradient-1)">
+            <g id="Group-12" transform="translate(0.000000, 1379.000000)">
+                <g id="Group-7" transform="translate(1066.000000, 41.000000)">
+                    <path d="M20.0107242,19.5454773 L27.2726749,14.2577012 L29,13 L29,25.1424764 C29,25.6160009 28.61338,25.9999428 28.1363663,25.9999428 L10.8636337,26 C10.3866776,26 10.0000576,25.6160581 10,25.1424764 L10,13 L11.7272675,14.2577012 L18.9892758,19.5454773 C19.1413329,19.656155 19.3206233,19.7114367 19.5000288,19.7114367 C19.6793192,19.7114367 19.8586671,19.656155 20.0107242,19.5454773 Z M19.5001172,18 L11,12 L28,12 L19.5001172,18 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

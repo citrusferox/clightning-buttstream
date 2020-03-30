@@ -1,0 +1,270 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+*{
+  box-sizing: border-box;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container{
+  max-width: 1000px;
+  border: 1px solid transparent;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+.bg{
+  background: rgb(253,105,109);
+  background: radial-gradient(circle at 100%, rgba(253,105,109,1) 0%, rgba(164,82,188,1) 100%);
+  background-position: center right;
+  width: 100%;
+  min-height: 10px;
+  color: #fff;
+  padding: 50px 0;
+}
+h1{
+  font-family: "Arial Black", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+}
+h1,.upper{
+  text-transform: uppercase;
+}
+h2{
+  font-size: 24px;
+}
+h3{
+  font-size: 16px;
+}
+.bg p{
+  opacity: 0.72;
+}
+.btn{
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background: #86408C;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 14px 21px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn.small{
+  padding: 10px 18px;
+}
+button{
+  margin-left: 30px;
+  outline-width: 0;
+}
+.tiny{
+  font-size: 12px;
+  margin-top: -3px;
+  opacity: 0.5;
+  text-align: center;
+}
+input{
+  padding: 3px;
+  margin-right: 20px;
+  background: transparent;
+  color: inherit;
+  border: 0 solid transparent;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+  width: 100px;
+  outline-width: 0;
+}
+.btn img{
+  margin-right: 10px;
+}
+.btn:hover{
+  background: #75307A;
+}
+.btn.secondary{
+  background: rgba(134,64,140,0.3);
+}
+.btn.secondary:hover{
+  background: rgba(134,64,140,0.5);
+}
+.padded{
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.m-left{
+  margin-left: 20px;
+}
+.main{
+  max-width: 500px;
+}
+.bg.hr{
+  margin: 0;
+  padding: 0;
+}
+footer{
+  background: #F0F0F0;
+  padding: 30px 0 25px 0;
+}
+.note{
+  justify-content: center;
+  /*font-weight: bold;*/
+  color: #A452BC;
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: center;
+}
+.card{
+  width: 48%;
+  /*height: 100px;*/
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+.card p{
+  text-align: center;
+  padding: 0;
+  margin: 0 20px 10px 20px;
+}
+.card h3{
+  margin-top: 0;
+  color: rgba(0,0,0,0.8);
+}
+.card img{
+  opacity: 0.8;
+}
+.social{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p a{
+  color: inherit;
+  opacity: 1;
+}
+p a:hover{
+  opacity: 0.8;
+}
+.qr{
+  position: relative;
+  height: 0px;
+  top: 200px;
+}
+.qr div{
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.qrside{
+  padding-left: 350px;
+}
+.larger{
+  min-height: 200px;
+}
+code{
+  display: inline-block;
+  overflow-x: scroll;
+  max-width: 100%;
+  width: 500px;
+  padding: 7px;
+  background: rgba(134,64,140,0.2);
+  border-radius: 3px;
+  margin-left: 20px;
+}
+code.invoice{
+  background: transparent;
+  word-wrap: break-word;
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  h2{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .qrside{
+    display: none;
+  }
+  .card{
+    width: 100%;
+  }
+  .container.reverse{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .container.large{
+    width: 100%;
+    flex-direction: column;
+  }
+  .mob-100{
+    text-align:center;
+  }
+  .m-left{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .btn,.secondary{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .mob-split{
+    display: flex;
+    flex-direction: column;
+  }
+  .main{
+    max-width: 500px;
+    margin: auto;
+  }
+}

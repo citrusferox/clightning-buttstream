@@ -1,0 +1,9 @@
+
+{
+  "name": "Virator",
+  "short_name": "Virator",
+  "display": "standalone",
+  "icons": [],
+  "theme_color": "#111111",
+  "background_color": "#ffffff"
+}

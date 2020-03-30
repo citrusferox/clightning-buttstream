@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="manifest" href="static/manifest.json">
+  <!-- <link rel="shortcut icon" type="image/png" href="static/favicon.ico" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111111" />
+
+  <!-- android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- <link rel="icon" sizes="192x192" href="frontend/icons/192.png"> -->
+  <!-- ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <title>Lightning Plug</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+  <script src="static/qrcode.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="static/stylesheet.css">
+</head>
+
+<body>
+  <div class="bg">
+    <div class="container reverse">
+      <div class="main">
+        <h1>Lightning Plug</h1>
+        <h2 class="upper">Stack your sats with pleasure!</h2>
+        <p>Connect your favorite sex toy to the c-lightning node 
+and feel every satoshi you receive or route.</p>
+        <div class="padded row mob-split">
+          <a href="#support" class="btn"><img src="static/buttplug_icon.svg"/> Let me feel your love</a>
+          <a href="https://github.com/citrusferox/lightningplug" class="btn m-left secondary"><img src="static/github.svg"/> Get the source code</a>
+        </div>
+      </div>
+      <div class="mob-100">
+        <img src="static/hush.png" alt="lightning buttplug" />
+      </div>
+    </div>
+  </div>
+<!--   <div class="container padded note">
+    This project is under development!
+  </div>
+-->  
+  <div class="container large">
+    <div class="card">
+      <div class="icon"><img src="static/device_hub.svg"/></div>
+      <h3>Universal</h3>
+      <p>
+        Connect any toy supported by buttplug.io library or write a driver for your own! One is not enough? Use all of them!
+      </p>
+    </div>
+    <div class="card">
+      <div class="icon"><img src="static/controller.svg"/></div>
+      <h3>Interactive</h3>
+      <p>
+        Entertain your audience while you are streaming and give them control. Interactive experience that makes you happy.
+      </p>
+    </div>
+  </div>
+  <div class="container large">
+    <div class="card">
+      <div class="icon"><img src="static/cloud.svg"/></div>
+      <h3>In the cloud</h3>
+      <p>
+        Works with both local and remote node. Connect from your browser with WebBluetooth!
+      </p>
+    </div>
+    <div class="card">
+      <div class="icon"><img src="static/phone.svg"/></div>
+      <h3>Stay connected</h3>
+      <p>
+        Connect on the go from the business meeting, gym or while walking. Please don’t use while driving ;)
+      </p>
+    </div>
+  </div>  
+<!--   <div class="container large">
+    <h1>Vibrate</h1>
+    <div id="msg">Message</div>
+    <div>
+      <a href="#" onclick="vibrate([500]);">Click here to enable vibration!</a>
+    </div>
+  </div>
+ -->  
+  <div class="qr container">
+    <div id="qrcode"></div>
+  </div>
+  <div class="bg">
+    <div class="container">
+      <div class="qrside">
+        <h2 id="support">Support the project!</h2>
+        <p>Send a few sats here or with <a href="https://tallyco.in/citrusferox/">tallyco.in</a>. I feel and appreciate every satoshi!</p>
+        <div class="row">
+          <input type="number" value="8000"/> satoshi <button class="btn secondary small"><img src="static/buttplug_icon.svg"/> Get invoice</button>
+        </div>
+        <div class="tiny" style="width: 100px;">~ <span>50 cent</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="qrside larger">
+      <div class="row padded">Invoice: <code class="invoice">lntb17u1p08lucspp59dmmjjmvknace6m0m8lfgnnw8nx9c2se7ec73clf892qkhc0049sdpzxysy2umswfjhxum0yppk76twypgxzmnwvycqp2xqrrss9qy9qsqsp5qz8sp6htet9ela986lyh452h4ythyjk3eq8zaghhjcr7fsszxxaqz8cr52r2nghp23gkalpz87sfwdhcl2fw9nxthven7k4zm9pr4upj0scgamzwmms9vp4u7cms3eca4rs2r54we4gfygvtvdq7pr2w0pqpeawwwc</code></div>
+      <div class="row padded">My node: <code>0355eef3ecd631b071f8eee9da65dd5d521edcf75de6ac0c21ae27e461a2516df3@172.86.75.217</code></div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div>Get in touch!</div>
+      <div>
+        <a href="mailto:citrusferox@gmail.com" class="social"><img src="static/rainbow-mail.svg"/></a>
+        <a href="https://twitter.com/CitrusFerox" class="social"><img src="static/rainbow-twitter.svg"/></a>
+      </div>
+    </div>
+  </footer>
+  <div class="bg hr"></div>
+
+<script type="text/javascript" charset="utf-8">
+new QRCode(document.getElementById("qrcode"), "lightning:lntb17u1p08lucspp59dmmjjmvknace6m0m8lfgnnw8nx9c2se7ec73clf892qkhc0049sdpzxysy2umswfjhxum0yppk76twypgxzmnwvycqp2xqrrss9qy9qsqsp5qz8sp6htet9ela986lyh452h4ythyjk3eq8zaghhjcr7fsszxxaqz8cr52r2nghp23gkalpz87sfwdhcl2fw9nxthven7k4zm9pr4upj0scgamzwmms9vp4u7cms3eca4rs2r54we4gfygvtvdq7pr2w0pqpeawwwc");
+
+function vibrate(msg){
+  if(!Array.isArray(msg)){
+    console.log("Not an array:", msg);
+    msg = [500];
+  }
+  navigator.vibrate(msg);
+  console.log("buzz buzz", msg);
+}
+
+var socket = io();
+socket.on('connect', function() {
+    socket.emit('connected', {data: 'I\'m connected!'});
+    console.log("connected");
+});
+socket.on('notification', function(e){
+  console.log(e);
+  vibrate(e);
+});
+</script>
+
+</body>
+</html>
